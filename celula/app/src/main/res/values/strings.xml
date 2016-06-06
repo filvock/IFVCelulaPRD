@@ -1,0 +1,148 @@
+<resources>
+
+    <!--first page -->
+    <string name="app_name">celula</string>
+    <string name="title">Minha celula</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Nome</string>
+    <string name="password">Senha</string>
+    <string name="button_send">Send</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_back">Voltar</string>
+    <string name="button_clear">Limpar</string>
+    <string name="title_activity_display_message">Menu Principal</string>
+
+    <!--options page -->
+    <string name="button_celula_dados">Dados da Célula</string>
+    <string name="button_frequencia">Frequência</string>
+    <string name="button_membros">Membros</string>
+    <string name="button_convidados">Convidados</string>
+    <string name="button_multiplicacao">Multiplicação</string>
+    <string name="button_escada">Trilho de Liderança</string>
+    <string name="button_logout">Logout</string>
+    <string name="title_activity_dados_celula">Dados da Célula</string>
+
+
+    <!--Dados da celula page -->
+    <string name="button_editar">Editar</string>
+    <string name="textview_nome">Nome</string>
+    <string name="textview_code">Código</string>
+    <string name="textview_cidade">Cidade</string>
+    <string name="textview_rua">Rua</string>
+    <string name="textview_numero">Número</string>
+    <string name="textview_dia_semana">Dia da Semana</string>
+    <string name="textview_horario">Horário</string>
+    <string name="textview_lider">Líder</string>
+    <string name="dados_title">Dados da Célula</string>
+    <string name="membros_title">Membros da Célula</string>
+    <string name="details_title">Dados do Membro</string>
+    <string name="edit">edit</string>
+    <string name="save">Salvar</string>
+    <string name="delete">Apagar</string>
+    <string name="novo_membro">Adicionar Membro</string>
+
+    <string-array name="dias_semana">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string name="title_activity_membros_celulas">Membros da Celula</string>
+    <string name="title_activity_member_details">Detalhes</string>
+
+    <!--Details page-->
+    <string name="details_Codigo">Codigo</string>
+    <string name="details_Nome">Nome</string>
+    <string name="details_Discipulador">Discipulador</string>
+    <string name="details_Aniversario">Aniversario</string>
+    <string name="details_Rua">Rua</string>
+    <string name="details_Num">Num</string>
+    <string name="details_Complemento">Complemento</string>
+    <string name="details_Bairro">Bairro</string>
+    <string name="details_CEP">CEP</string>
+    <string name="details_Cidade">Cidade</string>
+    <string name="details_UF">UF</string>
+    <string name="details_CPF">CPF</string>
+    <string name="details_RG">RG</string>
+    <string name="details_Celular">Celular</string>
+    <string name="details_Operadora">Operadora</string>
+    <string name="details_Celular1">Celular1</string>
+    <string name="details_Operadora1">Operadora1</string>
+    <string name="details_Celular2">Celular2</string>
+    <string name="details_Operadora2">Operadora2</string>
+    <string name="details_Fone">Fone</string>
+    <string name="details_Sexo">Sexo</string>
+    <string name="details_Email">Email</string>
+    <string name="details_EstadoCivil">EstadoCivil</string>
+    <string name="details_Igreja">Igreja</string>
+    <string name="details_Rede">Rede</string>
+    <string name="details_Distrito">Distrito</string>
+    <string name="details_Area">Area</string>
+    <string name="details_Setor">Setor</string>
+    <string name="details_Celula">Celula</string>
+    <string name="title_activity_add_member">Adicionar Novo Membro</string>
+
+
+    <!--Cell Report Page-->
+    <string name="cell_date">Data da Célula</string>
+    <string name="cell_date2">Data da Célula: </string>
+    <string name="cell_date3">Entrar Nova Data</string>
+    <string name="title_activity_cell_report">Data da Célula</string>
+    <string name="title_activity_cell_report_data">Dados do Relatório</string>
+    <string name="cell_frequency">Frequência na Célula</string>
+    <string name="cell_offer">Oferta na Célula</string>
+    <string name="cell_nocell">Não Houve Célula</string>
+
+    <string name="cell_nocell_programacao">Programação na Igreja</string>
+    <string name="cell_nocell_recesso">Recesso</string>
+    <string name="cell_nocell_ausencia">Ausência do Anfitrião</string>
+    <string name="cell_nocell_outros">Outros</string>
+
+    <string name="service_frequency">Frequência no Culto</string>
+    <string name="title_activity_service_frequency">Frequência no Culto</string>
+    <string name="title_activity_escada_sucesso">Escada do Sucesso</string>
+    <string name="title_activity_change_password">Trocar Senha</string>
+
+    <!--Cell Report Page-->
+    <string name="changepw_cell">Celula: </string>
+    <string name="changepw_login">Login: </string>
+    <string name="changepw_oldpw">Senha Antiga: </string>
+    <string name="changepw_newpw1">Senha Nova: </string>
+    <string name="changepw_newpw2">Repita Senha Nova:</string>
+    <string name="changepw_options_page_button">Trocar Senha</string>
+    <string name="title_activity_reports">Relatórios</string>
+    <string name="button_report_cell">Frequência Célula</string>
+    <string name="button_report_service">Frequência Culto</string>
+    <string name="title_activity_frequency">Frequência</string>
+
+    <!--Frequency Page-->
+    <string name="button_celula_frequencia">Frequência na Célula</string>
+    <string name="button_culto_frequencia">Frequência no Culto</string>
+    <string name="button_report">Relatórios de Frequência</string>
+    <string name="button_frequency_edit">Editar/Excluir Lançamentos</string>
+    <string name="button_frequency_edit_service">Editar/Excluir Lançamentos Culto</string>
+    <string name="button_frequency_edit_cell">Editar/Excluir Lançamentos Célula</string>
+
+
+    <!--Cell Report Page-->
+    <string name="button_celula_report">Relatório de Célula</string>
+    <string name="button_culto_report">Relatório de Culto</string>
+    <string name="title_activity_cell_frequency_report">Relatório de Frequência de Células</string>
+    <string name="title_activity_service_frequency_report">Relatório de Frequência de Cultos</string>
+
+    <string name="button_data_inicio">Data inicial</string>
+    <string name="button_data_fim">Data Final</string>
+    <string name="title_activity_cell_frequency_report_list">Frequência na Célula</string>
+    <string name="title_activity_service_frequency_report_list">Frequência no Culto</string>
+    <string name="title_activity_edit_frequency">Editar/Excluir Lançamentos</string>
+    <string name="title_activity_frequency_edit_cell">Editar Frequência na Célula</string>
+    <string name="title_activity_frequency_edit_service">Editar Frequência no Culto</string>
+    <string name="version">Versão:</string>
+
+
+</resources>

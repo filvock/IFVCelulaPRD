@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.juarez.celula"
+    android:versionCode="10"
+    android:versionName="1.1.5">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ifvlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OptionsPage"
+            android:label="@string/title_activity_display_message">
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".CellDataPkg.DadosCelula"
+            android:label="@string/title_activity_dados_celula"
+            android:parentActivityName=".OptionsPage"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.juarez.celula.OptionsPage" />
+        </activity>
+        <activity
+            android:name=".MembersPkg.MembrosCelulas"
+            android:label="@string/title_activity_membros_celulas"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MembersPkg.MemberDetails"
+            android:label="@string/title_activity_member_details"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MembersPkg.AddMember"
+            android:label="@string/title_activity_add_member"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FrequencyPkg.CellFrequency"
+            android:label="@string/title_activity_cell_report_data"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FrequencyPkg.ServiceFrequency"
+            android:label="@string/title_activity_service_frequency"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SuccessLaderPkg.EscadaSucesso"
+            android:label="@string/title_activity_escada_sucesso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToolsPkg.ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.Reports"
+            android:label="@string/title_activity_reports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.Frequency"
+            android:label="@string/title_activity_frequency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.CellFrequencyReport"
+            android:label="@string/title_activity_cell_frequency_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.ServiceFrequencyReport"
+            android:label="@string/title_activity_service_frequency_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.CellFrequencyReportList"
+            android:label="@string/title_activity_cell_frequency_report_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.ServiceFrequencyReportList"
+            android:label="@string/title_activity_service_frequency_report_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.FrequencyEdit"
+            android:label="@string/title_activity_edit_frequency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.FrequencyEditCell"
+            android:label="@string/title_activity_frequency_edit_cell"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequencyPkg.FrequencyEditService"
+            android:label="@string/title_activity_frequency_edit_service"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

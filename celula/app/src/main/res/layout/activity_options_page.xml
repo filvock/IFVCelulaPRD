@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/content"
+    tools:context=".OptionsPage"
+    android:background="@mipmap/ifvlogo">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_celula_dados"
+        android:id="@+id/buttonCelulaDados"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="ButtonDadosCelula" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_frequencia"
+        android:id="@+id/buttonFreqCel"
+        android:layout_below="@+id/buttonCelulaDados"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonCelulaDados"
+        android:layout_alignEnd="@+id/buttonCelulaDados"
+        android:onClick="ButtonFrequency" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_membros"
+        android:id="@+id/buttonMembros"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="ButtonMembrosCelula"
+        android:layout_below="@+id/buttonFreqCel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_convidados"
+        android:id="@+id/buttonConvidados"
+        android:layout_below="@+id/buttonMembros"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_multiplicacao"
+        android:id="@+id/buttonMultiplicacao"
+        android:layout_below="@+id/buttonConvidados"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_escada"
+        android:id="@+id/buttonEscada"
+        android:layout_below="@+id/buttonMultiplicacao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonMultiplicacao"
+        android:layout_alignEnd="@+id/buttonMultiplicacao"
+        android:onClick="ButtonEscadaSucesso" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/changepw_options_page_button"
+        android:id="@+id/buttonChangePw"
+        android:layout_below="@+id/buttonEscada"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonEscada"
+        android:layout_alignEnd="@+id/buttonEscada"
+        android:onClick="ButtonChangePw"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_logout"
+        android:id="@+id/buttonLogout"
+        android:layout_below="@+id/buttonChangePw"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonChangePw"
+        android:layout_alignEnd="@+id/buttonChangePw"
+        android:onClick="ButtonLogout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="sans"
+        android:textSize="24sp"
+        android:textColor="#aa0000"
+        android:textStyle="bold"
+        android:text="@string/version"
+        android:id="@+id/versionText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonChangePw"
+        android:layout_alignEnd="@+id/buttonChangePw" />
+
+</RelativeLayout>
+
