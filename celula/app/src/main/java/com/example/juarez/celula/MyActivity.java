@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.juarez.celula.ToolsPkg.ConnectionClass;
+import com.google.android.gms.common.server.converter.StringToIntConverter;
 
 import java.util.ArrayList;
 
@@ -136,10 +137,11 @@ public class MyActivity extends AppCompatActivity {
     public void SaveInfo(){
         editor.putString("login", login);
         editor.putString("loginCode", loginCode);
+        editor.putInt("codCel", codCelula);
         editor.commit();
     }
 
-    public static int CodCel(){ return codCelula;}
+    public static int CodCel(){ return sharedPref.getInt("codCel", -1);}
     public static String Igreja(){return igreja;}
     public static String Password(){return password;}
     public static String Login(){return login;}

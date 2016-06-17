@@ -263,7 +263,7 @@ public class CellFrequency extends AppCompatActivity {
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                SaveOfferValue(input.getText().toString());
+                if(input.getText().length() != 0) SaveOfferValue(input.getText().toString());
             }
         });
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
