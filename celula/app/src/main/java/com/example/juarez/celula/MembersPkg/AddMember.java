@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-public class AddMember extends AppCompatActivity {
+public class  AddMember extends AppCompatActivity {
 
     ConnectionClass connection;
     AlertDialog alert;

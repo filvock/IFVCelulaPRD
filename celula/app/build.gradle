@@ -4,13 +4,13 @@ android {
     signingConfigs {
         config {
             keyAlias 'alias_name'
-            keyPassword 'Fre1del.'
-            storeFile file('D:/drive/IFV/IFV Sistemas/my-release-key.keystore')
-            storePassword 'Fre1del.'
+            keyPassword 'freundel'
+            storeFile file('E:/GitHub/IFVCelulaPRD/my-release-key.keystore')
+            storePassword 'freundel'
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "juarez.celula"
         minSdkVersion 11

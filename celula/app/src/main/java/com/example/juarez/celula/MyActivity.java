@@ -138,16 +138,17 @@ public class MyActivity extends AppCompatActivity {
         editor.putString("login", login);
         editor.putString("loginCode", loginCode);
         editor.putInt("codCel", codCelula);
+        editor.putString("Igreja", igreja);
+
         editor.commit();
     }
 
     public static int CodCel(){ return sharedPref.getInt("codCel", -1);}
-    public static String Igreja(){return igreja;}
-    public static String Password(){return password;}
-    public static String Login(){return login;}
-    public static String LoginCode(){return loginCode;}
+    public static String Igreja(){return sharedPref.getString("Igreja", "Erro");}
+    public static String Password(){return sharedPref.getString("passoword", "Erro");}
+    public static String Login(){return sharedPref.getString("login", "Erro");}
+    public static String LoginCode(){return sharedPref.getString("loginCode", "Erro");}
     public static String CelName(){
-        return celname;
+        return sharedPref.getString("celname", "Erro");
     }
 }
-
